@@ -6,5 +6,6 @@ import streamlit
 streamlit.header('Breakfast Menu')
 
 streamlit.text('Omega 3 & Blue Berry Oatmeal')
-
+streamlit.text('Kale, Spinach & Rocket Smoothie')
+ 
 
