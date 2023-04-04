@@ -24,7 +24,7 @@ streamlit.dataframe(fruits_to_show)
 streamlit.header("Fruityvice Fruit Advice!")
 
 import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + "kiwi")
 
 # uses pandas to return just text without quotation marks, commas, etc.
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
