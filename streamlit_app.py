@@ -48,3 +48,5 @@ my_cur = my_cnx.cursor()
 my_cur.execute("SELECT * from fruit_load_list")
 fruit_additions = streamlit.text_input('What fruit would you like information about?')
 streamlit.write('Thank you for adding', fruit_additions)
+
+my_cur.execute("insert into FRUIT_LOAD_LIST values from ('stream.lit'))
