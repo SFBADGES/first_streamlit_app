@@ -37,5 +37,3 @@ streamlit.dataframe(fruityvice_normalized)
 import snowflake.connector
 
 
-streamlit.text(my_data_row)
-
